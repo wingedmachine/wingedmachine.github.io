@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: wheeler.pryor@gmail.com
 copyright_name: Wheeler
 description: > # this means to ignore newlines until "baseurl:"
-  a technical blog
+  a technical blog (but you knew that already)
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  wingedmachine
