@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Chewing it anyway"
-date:       2018-11-01 16:21:58 +0000
+date:       2018-11-01 12:21:59 -0400
 permalink:  chewing_it_anyway
 ---
 
