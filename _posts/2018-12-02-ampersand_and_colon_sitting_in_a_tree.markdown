@@ -34,7 +34,7 @@ get_title = :title.to_proc
 books.each(&get_title)
 ```
 
-The last step is easy. If you put an ampersand before something that is not already a Proc, Ruby will automatically call #to_proc, so now we're back to the line of code I showed at the very beginning:
+The last step is easy. If you put an ampersand before something that is not already a Proc, Ruby will automatically call #to_proc on it in a bit of implicit casting, so now we're back to the line of code I showed at the very beginning:
 
 ```
 books.each(&:title)
