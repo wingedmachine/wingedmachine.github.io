@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ampersand and Colon sitting in a tree"
-date:       2018-12-03 03:53:12 +0000
+date:       2018-12-02 22:53:13 -0500
 permalink:  ampersand_and_colon_sitting_in_a_tree
 ---
 
@@ -19,7 +19,7 @@ First, though, let's look again at that code example I listed above. In lessons 
 This is our starting point. The section in braces there is a "block," and a block can be wrapped in an object called a [Proc](https://ruby-doc.com/core/Proc.html), which gives us methods like #call. When an ampersand prefixes a Proc as the last parameter of a method call, the method threats that Proc as a block, so we can rewrite that previous line of code as:
 
 > get_title = Proc.new { |x| x.title }
-> 
+
 > books.each(&get_title)
 
 This is where the colon comes in. It does what we've seen a colon do many, many times. It makes a [Symbol](https://ruby-doc.com/core/Symbol.html), and symbols all have #to_proc, which returns a Proc that performs the method with the same name as the symbol. So our previous code can instead be:
